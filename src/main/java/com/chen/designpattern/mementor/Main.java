@@ -1,11 +1,13 @@
 package com.chen.designpattern.mementor;
 
+import java.util.Observable;
+
 /**
  * 备忘录模式
  * 主要优点:
  * 1、提供一种状态恢复方案
  * 2、备忘录不会被其他改动,采用容器可以实现多次撤销
- *
+ * <p>
  * 主要缺点:
  * 1、资源消耗大,如果原发器有多个状态,并且多个状态资源消耗大。
  * Created by Chen on 2017/1/8.
